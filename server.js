@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // MongoDB Connection
-const MONGO_URI = '"mongodb+srv://admin:gokil127b@kadek.csskltt.mongodb.net/?appName=Kadek"';
+const MONGO_URI = 'mongodb+srv://admin:gokil127b@kadek.csskltt.mongodb.net/?appName=Kadek';
 
 mongoose.connect(MONGO_URI, {
   serverSelectionTimeoutMS: 10000,
