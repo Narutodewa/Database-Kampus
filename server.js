@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // MongoDB Connection
-const MONGO_URI = 'mongodb://admin:gokil127b@ac-c4ogjzu-shard-00-00.csskltt.mongodb.net:27017,ac-c4ogjzu-shard-00-01.csskltt.mongodb.net:27017,ac-c4ogjzu-shard-00-02.csskltt.mongodb.net:27017/kampus_db?ssl=true&replicaSet=atlas-mn6spq-shard-0&authSource=admin&retryWrites=true&w=majority';
+const MONGO_URI = '"mongodb+srv://admin:gokil127b@kadek.csskltt.mongodb.net/?appName=Kadek"';
 
 mongoose.connect(MONGO_URI, {
   serverSelectionTimeoutMS: 10000,
